@@ -1,0 +1,77 @@
+additionalProperties:
+  formFields:
+    - default: admin
+      envKey: ADMIN_USER
+      labelEn: "Owner Username"
+      labelZh: "站长用户名"
+      required: true
+      type: text
+      label:
+        en: "Owner Username"
+        es-es: "Owner Username"
+        ja: "Owner Username"
+        ms: "Owner Username"
+        pt-br: "Owner Username"
+        ru: "Owner Username"
+        ko: "Owner Username"
+        zh-Hant: "站長使用者名稱"
+        zh: "站长用户名"
+        tr: "Owner Username"
+    - default: ""
+      envKey: ADMIN_PASSWORD
+      labelEn: "Owner Password (at least 12 characters)"
+      labelZh: "站长口令（至少 12 位）"
+      random: true
+      required: true
+      type: password
+      label:
+        en: "Owner Password (at least 12 characters)"
+        es-es: "Owner Password (at least 12 characters)"
+        ja: "Owner Password (at least 12 characters)"
+        ms: "Owner Password (at least 12 characters)"
+        pt-br: "Owner Password (at least 12 characters)"
+        ru: "Owner Password (at least 12 characters)"
+        ko: "Owner Password (at least 12 characters)"
+        zh-Hant: "站長口令（至少 12 位）"
+        zh: "站长口令（至少 12 位）"
+        tr: "Owner Password (at least 12 characters)"
+    - default: 1
+      envKey: TRUST_PROXY
+      labelEn: "Behind Reverse Proxy (trust X-Forwarded-For)"
+      labelZh: "经由反向代理访问（信任 X-Forwarded-For）"
+      required: true
+      type: select
+      values:
+        - label: "是（通过 1Panel 网站反向代理访问）"
+          value: "1"
+        - label: "否（直接通过端口访问）"
+          value: "0"
+      label:
+        en: "Behind Reverse Proxy (trust X-Forwarded-For)"
+        es-es: "Behind Reverse Proxy (trust X-Forwarded-For)"
+        ja: "Behind Reverse Proxy (trust X-Forwarded-For)"
+        ms: "Behind Reverse Proxy (trust X-Forwarded-For)"
+        pt-br: "Behind Reverse Proxy (trust X-Forwarded-For)"
+        ru: "Behind Reverse Proxy (trust X-Forwarded-For)"
+        ko: "Behind Reverse Proxy (trust X-Forwarded-For)"
+        zh-Hant: "經由反向代理存取（信任 X-Forwarded-For）"
+        zh: "经由反向代理访问（信任 X-Forwarded-For）"
+        tr: "Behind Reverse Proxy (trust X-Forwarded-For)"
+    - default: 8788
+      envKey: PANEL_APP_PORT_HTTP
+      labelEn: Port
+      labelZh: "端口"
+      label:
+        en: Port
+        es-es: Puerto
+        ja: "ポート"
+        ms: Port
+        pt-br: Porta
+        ru: "Порт"
+        ko: "포트"
+        zh-Hant: "埠"
+        zh: "端口"
+        tr: "Bağlantı Noktası"
+      required: true
+      rule: paramPort
+      type: number

@@ -1,0 +1,190 @@
+{
+  "key": "s11-exalted",
+  "name": "S11 Exalted Finder",
+  "title": "S11 尊者配对",
+  "version": "0.3.2",
+  "description": {
+    "en": "Exalted combination finder for TFT / JCC Set 11 Inkborn Fables, with message board and community submissions",
+    "es-es": "Exalted combination finder for TFT / JCC Set 11 Inkborn Fables, with message board and community submissions",
+    "ja": "Exalted combination finder for TFT / JCC Set 11 Inkborn Fables, with message board and community submissions",
+    "ms": "Exalted combination finder for TFT / JCC Set 11 Inkborn Fables, with message board and community submissions",
+    "pt-br": "Exalted combination finder for TFT / JCC Set 11 Inkborn Fables, with message board and community submissions",
+    "ru": "Exalted combination finder for TFT / JCC Set 11 Inkborn Fables, with message board and community submissions",
+    "ko": "Exalted combination finder for TFT / JCC Set 11 Inkborn Fables, with message board and community submissions",
+    "zh-Hant": "金鏟鏟「畫之靈」尊者組合查詢，含留言板與社群投稿審核",
+    "zh": "金铲铲「画之灵」尊者组合查询，含留言板与社区投稿审核",
+    "tr": "Exalted combination finder for TFT / JCC Set 11 Inkborn Fables, with message board and community submissions"
+  },
+  "readme": {
+    "zh": {
+      "introduction": "是腾讯文档《S11尊者玩法查询工具》的网页版，适配金铲铲「画之灵」返场。点选本局的尊者棋子即可找到对应组合与玩法。",
+      "features": [
+        {
+          "title": "尊者组合查询",
+          "description": "选 2 个棋子通常即可锁定组合，并提示最能区分剩余组合的棋子。"
+        },
+        {
+          "title": "留言板",
+          "description": "玩家留言，管理员可回复、精选、删除。"
+        },
+        {
+          "title": "社区投稿",
+          "description": "玩家可登记未收录的新组合和玩法，管理员审核后公开。"
+        },
+        {
+          "title": "多管理员",
+          "description": "站长由安装参数创建，可在后台添加其他管理员，审核记录审核人。"
+        }
+      ]
+    },
+    "en": {
+      "introduction": "is a web version of the S11 Exalted lookup spreadsheet for TFT / JCC Set 11 Inkborn Fables. Pick the Exalted units you see to find the combination and recommended lineups.",
+      "features": [
+        {
+          "title": "Exalted Lookup",
+          "description": "Two units are usually enough to identify the combination."
+        },
+        {
+          "title": "Message Board",
+          "description": "Players leave feedback; admins can reply, feature and delete."
+        },
+        {
+          "title": "Community Submissions",
+          "description": "New combinations and lineups are published after admin review."
+        },
+        {
+          "title": "Multiple Admins",
+          "description": "The owner account is created from install parameters and can add more admins."
+        }
+      ]
+    }
+  },
+  "type": "website",
+  "tags": [
+    "Website"
+  ],
+  "website": "https://docs.qq.com/sheet/DYVRkeGF0QWNXa2xq",
+  "github": "https://docker.maplex.top/v2/s11-exalted/tags/list",
+  "document": "https://docs.qq.com/sheet/DYVRkeGF0QWNXa2xq",
+  "logo": "/tmp/s11pkg/logo.png",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "source_evidence": [
+    "Dockerfile (EXPOSE 8080, VOLUME /data, USER nonroot=65532, ENV ADDR/DATA_DIR)",
+    "server/main.go (ADMIN_USER, ADMIN_PASSWORD, TRUST_PROXY, -healthcheck)",
+    "https://docker.maplex.top/v2/s11-exalted/tags/list (0.2.0, linux/amd64 + linux/arm64)"
+  ],
+  "init_source_evidence": [
+    "Dockerfile: FROM gcr.io/distroless/static-debian12:nonroot (UID/GID 65532), DATA_DIR=/data"
+  ],
+  "services": [
+    {
+      "name": "s11-exalted",
+      "image": "docker.maplex.top/s11-exalted:0.3.2",
+      "primary": true,
+      "ports": [
+        {
+          "host_env": "PANEL_APP_PORT_HTTP",
+          "host_default": 8788,
+          "container": 8080,
+          "protocol": "tcp",
+          "label": "Port"
+        }
+      ],
+      "volumes": [
+        "./data:/data"
+      ],
+      "volume_permissions": [
+        {
+          "path": "./data",
+          "owner": "65532:65532",
+          "mode": "700"
+        }
+      ],
+      "environment": {
+        "ADMIN_USER": "${ADMIN_USER}",
+        "ADMIN_PASSWORD": "${ADMIN_PASSWORD}",
+        "TRUST_PROXY": "${TRUST_PROXY}"
+      }
+    }
+  ],
+  "form_fields": [
+    {
+      "default": "admin",
+      "envKey": "ADMIN_USER",
+      "labelEn": "Owner Username",
+      "labelZh": "站长用户名",
+      "required": true,
+      "type": "text",
+      "label": {
+        "en": "Owner Username",
+        "es-es": "Owner Username",
+        "ja": "Owner Username",
+        "ms": "Owner Username",
+        "pt-br": "Owner Username",
+        "ru": "Owner Username",
+        "ko": "Owner Username",
+        "zh-Hant": "站長使用者名稱",
+        "zh": "站长用户名",
+        "tr": "Owner Username"
+      }
+    },
+    {
+      "default": "",
+      "envKey": "ADMIN_PASSWORD",
+      "labelEn": "Owner Password (at least 12 characters)",
+      "labelZh": "站长口令（至少 12 位）",
+      "random": true,
+      "required": true,
+      "type": "password",
+      "label": {
+        "en": "Owner Password (at least 12 characters)",
+        "es-es": "Owner Password (at least 12 characters)",
+        "ja": "Owner Password (at least 12 characters)",
+        "ms": "Owner Password (at least 12 characters)",
+        "pt-br": "Owner Password (at least 12 characters)",
+        "ru": "Owner Password (at least 12 characters)",
+        "ko": "Owner Password (at least 12 characters)",
+        "zh-Hant": "站長口令（至少 12 位）",
+        "zh": "站长口令（至少 12 位）",
+        "tr": "Owner Password (at least 12 characters)"
+      }
+    },
+    {
+      "default": "1",
+      "envKey": "TRUST_PROXY",
+      "labelEn": "Behind Reverse Proxy (trust X-Forwarded-For)",
+      "labelZh": "经由反向代理访问（信任 X-Forwarded-For）",
+      "required": true,
+      "type": "select",
+      "values": [
+        {
+          "label": "是（通过 1Panel 网站反向代理访问）",
+          "value": "1"
+        },
+        {
+          "label": "否（直接通过端口访问）",
+          "value": "0"
+        }
+      ],
+      "label": {
+        "en": "Behind Reverse Proxy (trust X-Forwarded-For)",
+        "es-es": "Behind Reverse Proxy (trust X-Forwarded-For)",
+        "ja": "Behind Reverse Proxy (trust X-Forwarded-For)",
+        "ms": "Behind Reverse Proxy (trust X-Forwarded-For)",
+        "pt-br": "Behind Reverse Proxy (trust X-Forwarded-For)",
+        "ru": "Behind Reverse Proxy (trust X-Forwarded-For)",
+        "ko": "Behind Reverse Proxy (trust X-Forwarded-For)",
+        "zh-Hant": "經由反向代理存取（信任 X-Forwarded-For）",
+        "zh": "经由反向代理访问（信任 X-Forwarded-For）",
+        "tr": "Behind Reverse Proxy (trust X-Forwarded-For)"
+      }
+    }
+  ],
+  "notes": [
+    "镜像托管在自建仓库 docker.maplex.top（目前无认证）",
+    "TRUST_PROXY=1 时应取消勾选「端口外部访问」，只让 OpenResty 访问"
+  ]
+}

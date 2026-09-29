@@ -1,0 +1,32 @@
+name: "S11 Exalted Finder"
+tags:
+  - Website
+title: "S11 尊者配对"
+description: "金铲铲「画之灵」尊者组合查询，含留言板与社区投稿审核"
+additionalProperties:
+  key: s11-exalted
+  name: "S11 Exalted Finder"
+  tags:
+    - Website
+  shortDescZh: "金铲铲「画之灵」尊者组合查询，含留言板与社区投稿审核"
+  shortDescEn: "Exalted combination finder for TFT / JCC Set 11 Inkborn Fables, with message board and community submissions"
+  description:
+    en: "Exalted combination finder for TFT / JCC Set 11 Inkborn Fables, with message board and community submissions"
+    es-es: "Exalted combination finder for TFT / JCC Set 11 Inkborn Fables, with message board and community submissions"
+    ja: "Exalted combination finder for TFT / JCC Set 11 Inkborn Fables, with message board and community submissions"
+    ms: "Exalted combination finder for TFT / JCC Set 11 Inkborn Fables, with message board and community submissions"
+    pt-br: "Exalted combination finder for TFT / JCC Set 11 Inkborn Fables, with message board and community submissions"
+    ru: "Exalted combination finder for TFT / JCC Set 11 Inkborn Fables, with message board and community submissions"
+    ko: "Exalted combination finder for TFT / JCC Set 11 Inkborn Fables, with message board and community submissions"
+    zh-Hant: "金鏟鏟「畫之靈」尊者組合查詢，含留言板與社群投稿審核"
+    zh: "金铲铲「画之灵」尊者组合查询，含留言板与社区投稿审核"
+    tr: "Exalted combination finder for TFT / JCC Set 11 Inkborn Fables, with message board and community submissions"
+  type: website
+  crossVersionUpdate: true
+  limit: 0
+  architectures:
+    - amd64
+    - arm64
+  website: https://docs.qq.com/sheet/DYVRkeGF0QWNXa2xq
+  github: https://docker.maplex.top/v2/s11-exalted/tags/list
+  document: https://docs.qq.com/sheet/DYVRkeGF0QWNXa2xq

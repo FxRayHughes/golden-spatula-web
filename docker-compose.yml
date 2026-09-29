@@ -1,0 +1,24 @@
+# 本地测试：pnpm docker:up，然后打开 http://localhost:8788（本机 8080 已被其他项目占用）
+# 站长账号 ADMIN_USER / ADMIN_PASSWORD 从 .env 读取；其他管理员登录后台后添加
+name: s11-exalted
+services:
+  s11-exalted:
+    image: docker.maplex.top/s11-exalted:${TAG:-latest}
+    build:
+      context: .
+      args:
+        DOCKERHUB: ${DOCKERHUB:-docker.io}
+        GCR: ${GCR:-gcr.io}
+    ports:
+      # 宿主机监听地址:端口 → 容器内 8080。只给反向代理用时设 HOST_BIND=127.0.0.1
+      - "${HOST_BIND:-0.0.0.0}:${HOST_PORT:-8788}:8080"
+    environment:
+      ADMIN_USER: ${ADMIN_USER:-admin}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:?请在 .env 中设置 ADMIN_PASSWORD（至少 12 位）}
+      TRUST_PROXY: ${TRUST_PROXY:-0}
+    volumes:
+      - s11-data:/data
+    restart: unless-stopped
+
+volumes:
+  s11-data:

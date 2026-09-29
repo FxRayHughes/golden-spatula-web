@@ -1,0 +1,1651 @@
+[
+ {
+  "id": "11212",
+  "name": "亚索",
+  "cost": 1,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_yasuo.png",
+  "traits": [
+   "灵魂莲华",
+   "决斗大师"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2028",
+    "count": 1
+   },
+   {
+    "id": "2034",
+    "count": 1
+   },
+   {
+    "id": "21112",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "11217",
+  "name": "克格莫",
+  "cost": 1,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_kogmaw.png",
+  "traits": [
+   "山海绘卷",
+   "神谕者",
+   "狙神"
+  ],
+  "exalted": false,
+  "exaltable": false,
+  "items": [
+   {
+    "id": "2016",
+    "count": 1
+   },
+   {
+    "id": "21122",
+    "count": 1
+   },
+   {
+    "id": "2038",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "11215",
+  "name": "凯特琳",
+  "cost": 1,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_caitlyn.png",
+  "traits": [
+   "幽魂",
+   "狙神"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": []
+ },
+ {
+  "id": "11209",
+  "name": "卡兹克",
+  "cost": 1,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_khazix.png",
+  "traits": [
+   "天将",
+   "死神"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2006",
+    "count": 1
+   },
+   {
+    "id": "2045",
+    "count": 1
+   },
+   {
+    "id": "2005",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "11216",
+  "name": "可酷伯",
+  "cost": 1,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_frank.png",
+  "traits": [
+   "吉星",
+   "斗士"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": []
+ },
+ {
+  "id": "11207",
+  "name": "墨菲特",
+  "cost": 1,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_malphite.png",
+  "traits": [
+   "天将",
+   "擎天卫"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": []
+ },
+ {
+  "id": "11213",
+  "name": "希维尔",
+  "cost": 1,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_sivir.png",
+  "traits": [
+   "剪纸仙灵",
+   "迅捷射手"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": []
+ },
+ {
+  "id": "11210",
+  "name": "德莱厄斯",
+  "cost": 1,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_darius.png",
+  "traits": [
+   "夜幽",
+   "决斗大师"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": []
+ },
+ {
+  "id": "11205",
+  "name": "盖伦",
+  "cost": 1,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_garen.png",
+  "traits": [
+   "剪纸仙灵",
+   "护卫"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "41113",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "11208",
+  "name": "科加斯",
+  "cost": 1,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_chogath.png",
+  "traits": [
+   "山海绘卷",
+   "擎天卫"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2034",
+    "count": 1
+   },
+   {
+    "id": "2028",
+    "count": 1
+   },
+   {
+    "id": "2029",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "11206",
+  "name": "贾克斯",
+  "cost": 1,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_jax.png",
+  "traits": [
+   "墨之影",
+   "护卫"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": []
+ },
+ {
+  "id": "11214",
+  "name": "阿狸",
+  "cost": 1,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_ahri.png",
+  "traits": [
+   "灵魂莲华",
+   "法师"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2004",
+    "count": 1
+   },
+   {
+    "id": "2020",
+    "count": 1
+   },
+   {
+    "id": "2038",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "11211",
+  "name": "雷克塞",
+  "cost": 1,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_reksai.png",
+  "traits": [
+   "永恒之森",
+   "斗士"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": []
+ },
+ {
+  "id": "12196",
+  "name": "亚托克斯",
+  "cost": 2,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_aatrox.png",
+  "traits": [
+   "幽魂",
+   "墨之影",
+   "斗士"
+  ],
+  "exalted": false,
+  "exaltable": false,
+  "items": [
+   {
+    "id": "2032",
+    "count": 1
+   },
+   {
+    "id": "9016",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "12305",
+  "name": "千珏",
+  "cost": 2,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_kindred.png",
+  "traits": [
+   "灵魂莲华",
+   "永恒之森",
+   "死神"
+  ],
+  "exalted": false,
+  "exaltable": false,
+  "items": [
+   {
+    "id": "2016",
+    "count": 4
+   },
+   {
+    "id": "21122",
+    "count": 4
+   },
+   {
+    "id": "2046",
+    "count": 2
+   },
+   {
+    "id": "2009",
+    "count": 1
+   },
+   {
+    "id": "21111",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "12302",
+  "name": "奇亚娜",
+  "cost": 2,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_qiyana.png",
+  "traits": [
+   "天将",
+   "决斗大师"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": []
+ },
+ {
+  "id": "12303",
+  "name": "妮蔻",
+  "cost": 2,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_neeko.png",
+  "traits": [
+   "山海绘卷",
+   "天将",
+   "法师"
+  ],
+  "exalted": false,
+  "exaltable": false,
+  "items": [
+   {
+    "id": "2029",
+    "count": 3
+   },
+   {
+    "id": "2032",
+    "count": 3
+   },
+   {
+    "id": "2034",
+    "count": 3
+   },
+   {
+    "id": "2006",
+    "count": 1
+   },
+   {
+    "id": "2017",
+    "count": 1
+   },
+   {
+    "id": "21112",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "12197",
+  "name": "婕拉",
+  "cost": 2,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_zyra.png",
+  "traits": [
+   "剪纸仙灵",
+   "圣贤"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2016",
+    "count": 1
+   },
+   {
+    "id": "2004",
+    "count": 1
+   },
+   {
+    "id": "2038",
+    "count": 1
+   },
+   {
+    "id": "21111",
+    "count": 1
+   },
+   {
+    "id": "2020",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "12199",
+  "name": "慎",
+  "cost": 2,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_shen.png",
+  "traits": [
+   "幽魂",
+   "擎天卫"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2028",
+    "count": 4
+   },
+   {
+    "id": "2034",
+    "count": 3
+   },
+   {
+    "id": "21110",
+    "count": 2
+   },
+   {
+    "id": "2018",
+    "count": 1
+   },
+   {
+    "id": "2019",
+    "count": 1
+   },
+   {
+    "id": "2032",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "12198",
+  "name": "拉克丝",
+  "cost": 2,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_lux.png",
+  "traits": [
+   "青花瓷",
+   "法师"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2016",
+    "count": 1
+   },
+   {
+    "id": "2004",
+    "count": 1
+   },
+   {
+    "id": "2017",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "12310",
+  "name": "提莫",
+  "cost": 2,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_teemo.png",
+  "traits": [
+   "吉星",
+   "迅捷射手"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": []
+ },
+ {
+  "id": "12308",
+  "name": "约里克",
+  "cost": 2,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_yorick.png",
+  "traits": [
+   "夜幽",
+   "擎天卫"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": []
+ },
+ {
+  "id": "12195",
+  "name": "纳尔",
+  "cost": 2,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_gnarbig.png",
+  "traits": [
+   "永恒之森",
+   "护卫"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2006",
+    "count": 1
+   },
+   {
+    "id": "2005",
+    "count": 1
+   },
+   {
+    "id": "21112",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "12307",
+  "name": "赛娜",
+  "cost": 2,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_senna.png",
+  "traits": [
+   "墨之影",
+   "狙神"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2001",
+    "count": 1
+   },
+   {
+    "id": "21110",
+    "count": 1
+   },
+   {
+    "id": "2045",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "12309",
+  "name": "迦娜",
+  "cost": 2,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_janna.png",
+  "traits": [
+   "天龙之子",
+   "神谕者"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2017",
+    "count": 2
+   },
+   {
+    "id": "2004",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "12306",
+  "name": "锐雯",
+  "cost": 2,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_riven.png",
+  "traits": [
+   "剪纸仙灵",
+   "武仙子",
+   "斗士"
+  ],
+  "exalted": false,
+  "exaltable": false,
+  "items": []
+ },
+ {
+  "id": "13218",
+  "name": "佐伊",
+  "cost": 3,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_zoe.png",
+  "traits": [
+   "吉星",
+   "剪纸仙灵",
+   "法师"
+  ],
+  "exalted": false,
+  "exaltable": false,
+  "items": [
+   {
+    "id": "2004",
+    "count": 2
+   },
+   {
+    "id": "2038",
+    "count": 2
+   },
+   {
+    "id": "2014",
+    "count": 1
+   },
+   {
+    "id": "2017",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "13217",
+  "name": "俄洛伊",
+  "cost": 3,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_illaoi.png",
+  "traits": [
+   "幽魂",
+   "法师",
+   "护卫"
+  ],
+  "exalted": false,
+  "exaltable": false,
+  "items": [
+   {
+    "id": "2028",
+    "count": 2
+   },
+   {
+    "id": "2034",
+    "count": 2
+   },
+   {
+    "id": "41109",
+    "count": 1
+   },
+   {
+    "id": "2019",
+    "count": 1
+   },
+   {
+    "id": "2040",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "13212",
+  "name": "厄斐琉斯",
+  "cost": 3,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_aphelios.png",
+  "traits": [
+   "灵魂莲华",
+   "狙神"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2001",
+    "count": 3
+   },
+   {
+    "id": "21110",
+    "count": 3
+   },
+   {
+    "id": "2045",
+    "count": 1
+   },
+   {
+    "id": "2046",
+    "count": 1
+   },
+   {
+    "id": "41103",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "13219",
+  "name": "塔姆",
+  "cost": 3,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_tahmkench.png",
+  "traits": [
+   "山海绘卷",
+   "斗士"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2034",
+    "count": 1
+   },
+   {
+    "id": "2031",
+    "count": 1
+   },
+   {
+    "id": "2028",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "13220",
+  "name": "崔丝塔娜",
+  "cost": 3,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_tristana.png",
+  "traits": [
+   "吉星",
+   "决斗大师"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2001",
+    "count": 1
+   },
+   {
+    "id": "2037",
+    "count": 1
+   },
+   {
+    "id": "2039",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "13213",
+  "name": "巴德",
+  "cost": 3,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_bard.png",
+  "traits": [
+   "山海绘卷",
+   "迅捷射手"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "21110",
+    "count": 2
+   },
+   {
+    "id": "2003",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "13214",
+  "name": "拉露恩",
+  "cost": 3,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_alune.png",
+  "traits": [
+   "夜幽",
+   "神谕者"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2004",
+    "count": 4
+   },
+   {
+    "id": "2020",
+    "count": 3
+   },
+   {
+    "id": "21111",
+    "count": 2
+   },
+   {
+    "id": "2038",
+    "count": 2
+   },
+   {
+    "id": "2016",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "13211",
+  "name": "永恩",
+  "cost": 3,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_yone.png",
+  "traits": [
+   "夜幽",
+   "死神"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2006",
+    "count": 2
+   },
+   {
+    "id": "2005",
+    "count": 2
+   },
+   {
+    "id": "21112",
+    "count": 2
+   }
+  ]
+ },
+ {
+  "id": "13221",
+  "name": "沃利贝尔",
+  "cost": 3,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_volibear.png",
+  "traits": [
+   "墨之影",
+   "决斗大师"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2006",
+    "count": 1
+   },
+   {
+    "id": "2007",
+    "count": 1
+   },
+   {
+    "id": "21112",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "13223",
+  "name": "索拉卡",
+  "cost": 3,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_soraka.png",
+  "traits": [
+   "天将",
+   "武仙子"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2006",
+    "count": 1
+   },
+   {
+    "id": "2038",
+    "count": 1
+   },
+   {
+    "id": "2018",
+    "count": 1
+   },
+   {
+    "id": "2016",
+    "count": 1
+   },
+   {
+    "id": "2004",
+    "count": 1
+   },
+   {
+    "id": "2020",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "13222",
+  "name": "锤石",
+  "cost": 3,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_thresh.png",
+  "traits": [
+   "灵魂莲华",
+   "擎天卫"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2034",
+    "count": 3
+   },
+   {
+    "id": "2028",
+    "count": 2
+   },
+   {
+    "id": "2018",
+    "count": 1
+   },
+   {
+    "id": "2029",
+    "count": 1
+   },
+   {
+    "id": "2031",
+    "count": 1
+   },
+   {
+    "id": "2019",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "13215",
+  "name": "阿木木",
+  "cost": 3,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_amumu.png",
+  "traits": [
+   "青花瓷",
+   "护卫"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2028",
+    "count": 3
+   },
+   {
+    "id": "2018",
+    "count": 2
+   },
+   {
+    "id": "2034",
+    "count": 1
+   },
+   {
+    "id": "2040",
+    "count": 1
+   },
+   {
+    "id": "2032",
+    "count": 1
+   },
+   {
+    "id": "2029",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "13216",
+  "name": "黛安娜",
+  "cost": 3,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_diana.png",
+  "traits": [
+   "天龙之子",
+   "圣贤"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2034",
+    "count": 1
+   },
+   {
+    "id": "2027",
+    "count": 1
+   },
+   {
+    "id": "2031",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "14210",
+  "name": "凯隐",
+  "cost": 4,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_kayn.png",
+  "traits": [
+   "幽魂",
+   "死神"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2005",
+    "count": 6
+   },
+   {
+    "id": "2006",
+    "count": 4
+   },
+   {
+    "id": "2039",
+    "count": 4
+   },
+   {
+    "id": "2001",
+    "count": 2
+   },
+   {
+    "id": "21112",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "14201",
+  "name": "加里奥",
+  "cost": 4,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_galio.png",
+  "traits": [
+   "剪纸仙灵",
+   "斗士"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2034",
+    "count": 6
+   },
+   {
+    "id": "2031",
+    "count": 4
+   },
+   {
+    "id": "2028",
+    "count": 4
+   },
+   {
+    "id": "2040",
+    "count": 2
+   },
+   {
+    "id": "2018",
+    "count": 1
+   },
+   {
+    "id": "2027",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "14209",
+  "name": "卡莎",
+  "cost": 4,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_kaisa.png",
+  "traits": [
+   "墨之影",
+   "迅捷射手"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2001",
+    "count": 2
+   },
+   {
+    "id": "2004",
+    "count": 2
+   },
+   {
+    "id": "2037",
+    "count": 1
+   },
+   {
+    "id": "2045",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "14215",
+  "name": "塞拉斯",
+  "cost": 4,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_sylas.png",
+  "traits": [
+   "夜幽",
+   "斗士"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2024",
+    "count": 1
+   },
+   {
+    "id": "2018",
+    "count": 1
+   },
+   {
+    "id": "41110",
+    "count": 1
+   },
+   {
+    "id": "2006",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "14205",
+  "name": "奥恩",
+  "cost": 4,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_ornn.png",
+  "traits": [
+   "永恒之森",
+   "擎天卫"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2034",
+    "count": 5
+   },
+   {
+    "id": "2028",
+    "count": 3
+   },
+   {
+    "id": "2018",
+    "count": 1
+   },
+   {
+    "id": "2019",
+    "count": 1
+   },
+   {
+    "id": "2029",
+    "count": 1
+   },
+   {
+    "id": "2027",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "14203",
+  "name": "安妮",
+  "cost": 4,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_annie.png",
+  "traits": [
+   "吉星",
+   "神谕者"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2034",
+    "count": 5
+   },
+   {
+    "id": "2028",
+    "count": 4
+   },
+   {
+    "id": "2018",
+    "count": 2
+   },
+   {
+    "id": "2031",
+    "count": 2
+   },
+   {
+    "id": "2044",
+    "count": 1
+   },
+   {
+    "id": "2040",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "14214",
+  "name": "李青",
+  "cost": 4,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_leesin.png",
+  "traits": [
+   "天龙之子",
+   "决斗大师"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2006",
+    "count": 1
+   },
+   {
+    "id": "2005",
+    "count": 1
+   },
+   {
+    "id": "21112",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "14213",
+  "name": "艾希",
+  "cost": 4,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_ashe.png",
+  "traits": [
+   "青花瓷",
+   "狙神"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2003",
+    "count": 5
+   },
+   {
+    "id": "21110",
+    "count": 5
+   },
+   {
+    "id": "2037",
+    "count": 4
+   },
+   {
+    "id": "2045",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "14206",
+  "name": "莉莉娅",
+  "cost": 4,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_lillia.png",
+  "traits": [
+   "山海绘卷",
+   "神谕者"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2016",
+    "count": 5
+   },
+   {
+    "id": "2038",
+    "count": 5
+   },
+   {
+    "id": "21122",
+    "count": 3
+   },
+   {
+    "id": "2004",
+    "count": 3
+   },
+   {
+    "id": "2003",
+    "count": 2
+   },
+   {
+    "id": "2017",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "14202",
+  "name": "莫甘娜",
+  "cost": 4,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_morgana.png",
+  "traits": [
+   "幽魂",
+   "圣贤"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2004",
+    "count": 7
+   },
+   {
+    "id": "2020",
+    "count": 6
+   },
+   {
+    "id": "21111",
+    "count": 4
+   },
+   {
+    "id": "2016",
+    "count": 3
+   },
+   {
+    "id": "2038",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "14212",
+  "name": "诺提勒斯",
+  "cost": 4,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_nautilus.png",
+  "traits": [
+   "山海绘卷",
+   "护卫"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2023",
+    "count": 2
+   },
+   {
+    "id": "2034",
+    "count": 2
+   },
+   {
+    "id": "2027",
+    "count": 1
+   },
+   {
+    "id": "2031",
+    "count": 1
+   },
+   {
+    "id": "2019",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "14207",
+  "name": "辛德拉",
+  "cost": 4,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_syndra.png",
+  "traits": [
+   "灵魂莲华",
+   "法师"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2024",
+    "count": 2
+   },
+   {
+    "id": "2038",
+    "count": 2
+   },
+   {
+    "id": "21122",
+    "count": 2
+   },
+   {
+    "id": "2017",
+    "count": 1
+   },
+   {
+    "id": "2016",
+    "count": 1
+   },
+   {
+    "id": "2003",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "15175",
+  "name": "丽桑卓",
+  "cost": 5,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_lissandra.png",
+  "traits": [
+   "青花瓷",
+   "法师"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2004",
+    "count": 3
+   },
+   {
+    "id": "2014",
+    "count": 1
+   },
+   {
+    "id": "2016",
+    "count": 1
+   },
+   {
+    "id": "21122",
+    "count": 1
+   },
+   {
+    "id": "2005",
+    "count": 1
+   },
+   {
+    "id": "2023",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "15180",
+  "name": "乌迪尔",
+  "cost": 5,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_udyr.png",
+  "traits": [
+   "墨之影",
+   "擎天卫",
+   "灵魂行者"
+  ],
+  "exalted": false,
+  "exaltable": false,
+  "items": [
+   {
+    "id": "2006",
+    "count": 4
+   },
+   {
+    "id": "21112",
+    "count": 2
+   },
+   {
+    "id": "2007",
+    "count": 2
+   },
+   {
+    "id": "41102",
+    "count": 1
+   },
+   {
+    "id": "9015",
+    "count": 1
+   },
+   {
+    "id": "9012",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "15185",
+  "name": "孙悟空",
+  "cost": 5,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_wukong.png",
+  "traits": [
+   "天将",
+   "圣贤",
+   "齐天大圣"
+  ],
+  "exalted": false,
+  "exaltable": false,
+  "items": [
+   {
+    "id": "2006",
+    "count": 5
+   },
+   {
+    "id": "2001",
+    "count": 4
+   },
+   {
+    "id": "2044",
+    "count": 3
+   },
+   {
+    "id": "2005",
+    "count": 2
+   },
+   {
+    "id": "2039",
+    "count": 1
+   },
+   {
+    "id": "2007",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "15182",
+  "name": "彗",
+  "cost": 5,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_hwei.png",
+  "traits": [
+   "山海绘卷",
+   "画圣"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2004",
+    "count": 4
+   },
+   {
+    "id": "2020",
+    "count": 3
+   },
+   {
+    "id": "21111",
+    "count": 2
+   },
+   {
+    "id": "2038",
+    "count": 1
+   },
+   {
+    "id": "2016",
+    "count": 1
+   },
+   {
+    "id": "41115",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "15176",
+  "name": "瑟提",
+  "cost": 5,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_sett.png",
+  "traits": [
+   "灵魂莲华",
+   "夜幽",
+   "护卫"
+  ],
+  "exalted": false,
+  "exaltable": false,
+  "items": [
+   {
+    "id": "2044",
+    "count": 3
+   },
+   {
+    "id": "41117",
+    "count": 1
+   },
+   {
+    "id": "2005",
+    "count": 1
+   },
+   {
+    "id": "2001",
+    "count": 1
+   },
+   {
+    "id": "2006",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "15184",
+  "name": "艾瑞莉娅",
+  "cost": 5,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_irelia.png",
+  "traits": [
+   "剪纸仙灵",
+   "决斗大师"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2001",
+    "count": 6
+   },
+   {
+    "id": "2009",
+    "count": 3
+   },
+   {
+    "id": "2045",
+    "count": 3
+   },
+   {
+    "id": "21110",
+    "count": 2
+   },
+   {
+    "id": "41111",
+    "count": 1
+   },
+   {
+    "id": "2042",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "15183",
+  "name": "阿兹尔",
+  "cost": 5,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_azir.png",
+  "traits": [
+   "永恒之森",
+   "神谕者"
+  ],
+  "exalted": true,
+  "exaltable": true,
+  "items": [
+   {
+    "id": "2017",
+    "count": 4
+   },
+   {
+    "id": "2004",
+    "count": 3
+   },
+   {
+    "id": "2038",
+    "count": 2
+   },
+   {
+    "id": "2016",
+    "count": 2
+   },
+   {
+    "id": "41111",
+    "count": 1
+   },
+   {
+    "id": "2044",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "id": "15177",
+  "name": "霞与洛",
+  "cost": 5,
+  "avatar": "https://game.gtimg.cn/images/lol/act/jkzlk/mode11s100030/hero/s11_head_xayah_rakan.png",
+  "traits": [
+   "仙侣",
+   "天龙之子",
+   "迅捷射手/武仙子"
+  ],
+  "exalted": false,
+  "exaltable": false,
+  "items": []
+ }
+]
